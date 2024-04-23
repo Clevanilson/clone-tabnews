@@ -1,0 +1,8 @@
+{
+  "name": "clone-tabnews",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@pessoal.github.com:Clevanilson/clone-tabnews.git",
+  "author": "Clevanilson <clevanilson.contato@gmail.com>",
+  "license": "MIT"
+}
