@@ -8,6 +8,7 @@ test("GET to /api/v1/status should return 200", async () => {
       database: {
         version: "16.0",
         maxConnections: 100,
+        openedConnections: 1,
       },
     },
   });
