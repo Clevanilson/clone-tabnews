@@ -7,6 +7,7 @@ test("GET to /api/v1/status should return 200", async () => {
     dependencies: {
       database: {
         version: "16.0",
+        maxConnections: 100,
       },
     },
   });
