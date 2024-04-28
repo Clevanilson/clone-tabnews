@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@pessoal.github.com:Clevanilson/clone-tabnews.git",
   "author": "Clevanilson <clevanilson.contato@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "next": "13.1.6"
+  }
 }
