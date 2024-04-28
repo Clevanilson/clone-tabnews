@@ -6,8 +6,10 @@
   "author": "Clevanilson <clevanilson.contato@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev",
-    "test:watch": "jest --watchAll"
+    "dev": "yarn services:up && next dev",
+    "test:watch": "jest --watchAll",
+    "services:up": "docker compose up -d",
+    "services:down": "docker compose down"
   },
   "dependencies": {
     "next": "13.1.6",
