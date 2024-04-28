@@ -1,1 +1,1 @@
-export * from "./PGAdapter";
+export * from "./PGAdapter.js";
