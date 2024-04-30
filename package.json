@@ -9,9 +9,12 @@
     "dev": "yarn services:up && next dev",
     "test:watch": "jest --watchAll",
     "services:up": "docker compose up -d",
-    "services:down": "docker compose down"
+    "services:down": "docker compose down",
+    "migration:create": "node-pg-migrate create --migrations-dir infra/migrations",
+    "migration:up": "node-pg-migrate up --migrations-dir infra/migrations --envPath .env.development"
   },
   "dependencies": {
+    "dotenv": "^16.4.5",
     "next": "13.1.6",
     "node-pg-migrate": "^7.2.0",
     "pg": "^8.11.5",
